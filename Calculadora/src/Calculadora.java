@@ -2,12 +2,11 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class Calculadora {
-    int num1;
-    int num2;
-    String operacion;
+    double num1;
+    double num2;
     Scanner sc = new Scanner(System.in);
 
-    public double operar(int num1, int num2) {
+    public double operar(double num1, double num2,String operacion) {
         double total = 0;
         switch (operacion) {
             case "+" -> total = num1 + num2;
@@ -18,7 +17,7 @@ public class Calculadora {
                     System.out.println("Error: No se puede dividir por cero.");
                     return 0;
                 }
-                total = (double) num1 / num2;
+                total = num1 / num2;
             }
             default -> System.out.println("Por favor, introduce un operador válido (+, -, *, /).");
         }
@@ -30,15 +29,15 @@ public class Calculadora {
 
         try {
             System.out.print("¿Cuál es el primer número? ");
-            num1 = sc.nextInt();
+            num1 = sc.nextDouble();
 
             System.out.print("¿Cuál es el segundo número? ");
-            num2 = sc.nextInt();
+            num2 = sc.nextDouble();
 
             System.out.print("Introduce la operación (+, -, *, /): ");
-            operacion = sc.next();
+            String operacion = sc.next();
 
-            double resultado = operar(num1, num2);
+            double resultado = operar(num1, num2,operacion);
             System.out.println("Resultado: " + resultado);
 
         } catch (InputMismatchException e) {
