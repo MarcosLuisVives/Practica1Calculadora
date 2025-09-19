@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LanzaCalculadora.iml" filepath="$PROJECT_DIR$/LanzaCalculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LanzarCalculadora.iml" filepath="$PROJECT_DIR$/LanzarCalculadora.iml" />
     </modules>
   </component>
 </project>

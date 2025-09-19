@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="LanzaCalculadora:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/LanzaCalculadora_jar</output-path>
-    <root id="archive" name="LanzaCalculadora.jar">
-      <element id="module-output" name="LanzaCalculadora" />
-    </root>
-  </artifact>
-</component>
