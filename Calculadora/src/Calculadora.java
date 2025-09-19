@@ -29,10 +29,12 @@ public class Calculadora {
 
         try {
             System.out.print("¿Cuál es el primer número? ");
-            num1 = sc.nextDouble();
+            String numero1=sc.next();
+            num1=Double.parseDouble(numero1);
 
             System.out.print("¿Cuál es el segundo número? ");
-            num2 = sc.nextDouble();
+            String numero2=sc.next();
+            num2=Double.parseDouble(numero2);
 
             System.out.print("Introduce la operación (+, -, *, /): ");
             String operacion = sc.next();
