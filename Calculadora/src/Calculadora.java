@@ -28,16 +28,16 @@ public class Calculadora {
         System.out.println("Bienvenido a la calculadora más completa");
 
         try {
-            System.out.print("¿Cuál es el primer número? ");
-            String numero1=sc.next();
+            System.out.println("¿Cuál es el primer número? ");
+            String numero1=sc.nextLine();
             num1=Double.parseDouble(numero1);
 
-            System.out.print("¿Cuál es el segundo número? ");
-            String numero2=sc.next();
+            System.out.println("¿Cuál es el segundo número? ");
+            String numero2=sc.nextLine();
             num2=Double.parseDouble(numero2);
 
-            System.out.print("Introduce la operación (+, -, *, /): ");
-            String operacion = sc.next();
+            System.out.println("Introduce la operación (+, -, *, /): ");
+            String operacion = sc.nextLine();
 
             double resultado = operar(num1, num2,operacion);
             System.out.println("Resultado: " + resultado);
