@@ -42,7 +42,7 @@ public class Calculadora {
             double resultado = operar(num1, num2,operacion);
             System.out.println("Resultado: " + resultado);
 
-        } catch (InputMismatchException e) {
+        } catch (InputMismatchException | NumberFormatException e) {
             System.out.println("Error: Entrada no válida. Debes introducir números enteros.");
         }
     }

@@ -19,17 +19,17 @@ public class Main {
             linea=br.readLine();
             System.out.println(linea);
 
-            bw.write("3");
+            bw.write("a");
             bw.newLine();
             bw.flush();
             linea=br.readLine();
             System.out.println(linea);
-            bw.write("6");
+            bw.write("8");
             bw.newLine();
             bw.flush();
             linea=br.readLine();
             System.out.println(linea);
-            bw.write("+" );
+            bw.write("/" );
             bw.newLine();
             bw.flush();
             linea=br.readLine();
