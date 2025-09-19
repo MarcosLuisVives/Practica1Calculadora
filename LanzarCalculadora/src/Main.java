@@ -19,7 +19,7 @@ public class Main {
             linea=br.readLine();
             System.out.println(linea);
 
-            bw.write("a");
+            bw.write("6");
             bw.newLine();
             bw.flush();
             linea=br.readLine();
@@ -29,7 +29,7 @@ public class Main {
             bw.flush();
             linea=br.readLine();
             System.out.println(linea);
-            bw.write("/" );
+            bw.write("+" );
             bw.newLine();
             bw.flush();
             linea=br.readLine();
