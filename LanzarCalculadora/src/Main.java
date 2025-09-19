@@ -19,12 +19,21 @@ public class Main {
             linea=br.readLine();
             System.out.println(linea);
 
-            bw.write(3 + "\n");
-            bw.write(6 + "\n");
-            bw.write("+" + "\n");
+            bw.write("3");
+            bw.newLine();
             bw.flush();
-
-
+            linea=br.readLine();
+            System.out.println(linea);
+            bw.write("6");
+            bw.newLine();
+            bw.flush();
+            linea=br.readLine();
+            System.out.println(linea);
+            bw.write("+" );
+            bw.newLine();
+            bw.flush();
+            linea=br.readLine();
+            System.out.println(linea);
 
 
         } catch (IOException e) {
